@@ -1,5 +1,5 @@
 """
-Django settings for coaches project.
+Django settings for insights project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'insights'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -48,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'coaches.urls'
+ROOT_URLCONF = 'insights.urls'
 
-WSGI_APPLICATION = 'coaches.wsgi.application'
+WSGI_APPLICATION = 'insights.wsgi.application'
 
 
 # Database
